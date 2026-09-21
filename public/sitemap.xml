@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- TODO: prefix each <loc> with the site base URL once a domain is set. -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>/</loc></url>
+  <url><loc>/basic</loc></url>
+  <url><loc>/scientific</loc></url>
+  <url><loc>/percentage</loc></url>
+  <url><loc>/tip</loc></url>
+  <url><loc>/age</loc></url>
+  <url><loc>/bmi</loc></url>
+  <url><loc>/date</loc></url>
+  <url><loc>/time-duration</loc></url>
+  <url><loc>/loan</loc></url>
+  <url><loc>/mortgage</loc></url>
+  <url><loc>/unit-converter</loc></url>
+</urlset>
