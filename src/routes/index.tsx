@@ -5,8 +5,9 @@ import { AdSlot, SiteFooter, SiteHeader } from "@/components/site/CalcPage";
 export const Route = createFileRoute("/")({
   head: () =>
     meta(
-      "Free Online Calculators — calc.studio",
+      "Free Online Calculators — Calulate.fyi",
       "Eleven fast, minimalist calculators: basic, scientific, percentage, tip, age, BMI, date, time duration, loan, mortgage and unit conversion.",
+      "/",
     ),
   component: Index,
 });

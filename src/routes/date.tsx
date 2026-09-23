@@ -6,8 +6,9 @@ import { meta } from "@/lib/calculators";
 export const Route = createFileRoute("/date")({
   head: () =>
     meta(
-      "Date Calculator — Days Between Dates & Date Math | calc.studio",
+      "Date Calculator — Days Between Dates & Date Math | Calulate.fyi",
       "Count the days, weeks and months between two dates, or add and subtract days from any date.",
+      "/date",
     ),
   component: DatePage,
 });

@@ -6,8 +6,9 @@ import { meta } from "@/lib/calculators";
 export const Route = createFileRoute("/loan")({
   head: () =>
     meta(
-      "Loan Calculator — Monthly Payment & Total Interest | calc.studio",
+      "Loan Calculator — Monthly Payment & Total Interest | Calulate.fyi",
       "Estimate the monthly payment, total interest and total cost of a personal, car or student loan.",
+      "/loan",
     ),
   component: LoanPage,
 });

@@ -6,8 +6,9 @@ import { meta } from "@/lib/calculators";
 export const Route = createFileRoute("/basic")({
   head: () =>
     meta(
-      "Basic Calculator — Fast Online Arithmetic | calc.studio",
+      "Basic Calculator — Fast Online Arithmetic | Calulate.fyi",
       "A clean online basic calculator for addition, subtraction, multiplication, division and percentages. Works on desktop and mobile.",
+      "/basic",
     ),
   component: BasicPage,
 });

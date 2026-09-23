@@ -22,7 +22,10 @@ export const calculators: Calc[] = [
 
 export const groups: Calc["group"][] = ["Everyday", "Health & Time", "Finance", "Conversion"];
 
-export function meta(title: string, description: string) {
+export const SITE_URL = "https://calulate.fyi";
+
+export function meta(title: string, description: string, path: string) {
+  const url = `${SITE_URL}${path}`;
   return {
     meta: [
       { title },
@@ -30,7 +33,9 @@ export function meta(title: string, description: string) {
       { property: "og:title", content: title },
       { property: "og:description", content: description },
       { property: "og:type", content: "website" },
+      { property: "og:url", content: url },
       { name: "twitter:card", content: "summary_large_image" },
     ],
+    links: [{ rel: "canonical", href: url }],
   };
 }

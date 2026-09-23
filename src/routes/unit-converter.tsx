@@ -6,8 +6,9 @@ import { meta } from "@/lib/calculators";
 export const Route = createFileRoute("/unit-converter")({
   head: () =>
     meta(
-      "Unit Converter — Length, Weight, Temperature & Volume | calc.studio",
+      "Unit Converter — Length, Weight, Temperature & Volume | Calulate.fyi",
       "Convert between metric and imperial units for length, weight, temperature and volume instantly.",
+      "/unit-converter",
     ),
   component: ConverterPage,
 });

@@ -6,8 +6,9 @@ import { meta } from "@/lib/calculators";
 export const Route = createFileRoute("/bmi")({
   head: () =>
     meta(
-      "BMI Calculator — Metric & Imperial Body Mass Index | calc.studio",
+      "BMI Calculator — Metric & Imperial Body Mass Index | Calulate.fyi",
       "Calculate body mass index from height and weight in metric or imperial units, with the standard BMI category.",
+      "/bmi",
     ),
   component: BmiPage,
 });

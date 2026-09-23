@@ -6,8 +6,9 @@ import { meta } from "@/lib/calculators";
 export const Route = createFileRoute("/tip")({
   head: () =>
     meta(
-      "Tip Calculator — Split a Bill Fairly | calc.studio",
+      "Tip Calculator — Split a Bill Fairly | Calulate.fyi",
       "Calculate tip amount, total bill and the per-person share for any group size and tip percentage.",
+      "/tip",
     ),
   component: TipPage,
 });

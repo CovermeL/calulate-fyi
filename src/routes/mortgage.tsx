@@ -6,8 +6,9 @@ import { meta } from "@/lib/calculators";
 export const Route = createFileRoute("/mortgage")({
   head: () =>
     meta(
-      "Mortgage Calculator — Home Loan Payment Estimate | calc.studio",
+      "Mortgage Calculator — Home Loan Payment Estimate | Calulate.fyi",
       "Estimate a monthly mortgage payment including principal, interest, property tax and home insurance.",
+      "/mortgage",
     ),
   component: MortgagePage,
 });

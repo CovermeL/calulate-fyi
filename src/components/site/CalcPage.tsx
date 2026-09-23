@@ -45,7 +45,7 @@ export function SiteHeader() {
     <header className="sticky top-0 z-30 border-b border-border bg-background/85 backdrop-blur">
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-5">
         <Link to="/" className="font-display text-lg font-semibold tracking-tight">
-          calc<span className="text-primary">.</span>studio
+          Calulate<span className="text-primary">.</span>fyi
         </Link>
         <nav className="hidden gap-6 text-sm text-muted-foreground md:flex">
           <Link to="/basic" className="transition-colors hover:text-foreground">Basic</Link>
@@ -70,7 +70,7 @@ export function SiteFooter() {
           ))}
         </div>
         <p className="mt-8 text-xs text-muted-foreground">
-          © {new Date().getFullYear()} calc.studio — free online calculators.
+          © {new Date().getFullYear()} Calulate.fyi — free online calculators.
         </p>
       </div>
     </footer>

@@ -6,8 +6,9 @@ import { meta } from "@/lib/calculators";
 export const Route = createFileRoute("/percentage")({
   head: () =>
     meta(
-      "Percentage Calculator — Percent Of, Change & Share | calc.studio",
+      "Percentage Calculator — Percent Of, Change & Share | Calulate.fyi",
       "Work out what X% of a number is, the percentage change between two values, and what share one number is of another.",
+      "/percentage",
     ),
   component: PercentPage,
 });

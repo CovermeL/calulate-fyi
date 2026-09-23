@@ -77,20 +77,21 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "calc.studio — Free Online Calculators" },
+      { title: "Calulate.fyi — Free Online Calculators" },
       {
         name: "description",
         content:
           "Fast, ad-light online calculators: basic, scientific, percentage, BMI, loan, mortgage, tip, date and unit conversion.",
       },
-      { property: "og:title", content: "calc.studio — Free Online Calculators" },
+      { property: "og:title", content: "Calulate.fyi — Free Online Calculators" },
       {
         property: "og:description",
         content: "A clean collection of free calculators for math, money, health and time.",
       },
       { property: "og:type", content: "website" },
+      { property: "og:url", content: "https://calulate.fyi/" },
+      { property: "og:site_name", content: "Calulate.fyi" },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:site", content: "@Lovable" },
     ],
     links: [
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
@@ -104,6 +105,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         href: appCss,
       },
       { rel: "icon", href: "/favicon.ico", type: "image/x-icon" },
+    ],
+    scripts: [
+      {
+        type: "application/ld+json",
+        children: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "WebSite",
+          name: "Calulate.fyi",
+          alternateName: "Calulate.fyi — Free Online Calculators",
+          url: "https://calulate.fyi/",
+        }),
+      },
     ],
   }),
   shellComponent: RootShell,

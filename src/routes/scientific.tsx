@@ -7,8 +7,9 @@ import { evaluateExpression } from "@/lib/expression";
 export const Route = createFileRoute("/scientific")({
   head: () =>
     meta(
-      "Scientific Calculator — Trig, Logs & Powers Online | calc.studio",
+      "Scientific Calculator — Trig, Logs & Powers Online | Calulate.fyi",
       "A free scientific calculator with sin, cos, tan, logarithms, powers, roots, π and e — type an expression and get the answer.",
+      "/scientific",
     ),
   component: SciPage,
 });

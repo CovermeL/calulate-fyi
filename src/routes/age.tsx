@@ -6,8 +6,9 @@ import { meta } from "@/lib/calculators";
 export const Route = createFileRoute("/age")({
   head: () =>
     meta(
-      "Age Calculator — Exact Age in Years, Months, Days | calc.studio",
+      "Age Calculator — Exact Age in Years, Months, Days | Calulate.fyi",
       "Find your exact age from a date of birth, plus total days lived and days until your next birthday.",
+      "/age",
     ),
   component: AgePage,
 });

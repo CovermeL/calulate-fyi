@@ -6,8 +6,9 @@ import { meta } from "@/lib/calculators";
 export const Route = createFileRoute("/time-duration")({
   head: () =>
     meta(
-      "Time Duration Calculator — Hours Between Two Times | calc.studio",
+      "Time Duration Calculator — Hours Between Two Times | Calulate.fyi",
       "Work out the hours and minutes between a start and end time, with optional break deduction and decimal hours.",
+      "/time-duration",
     ),
   component: DurationPage,
 });
